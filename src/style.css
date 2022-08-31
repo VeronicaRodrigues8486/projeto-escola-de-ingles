@@ -144,12 +144,6 @@ nav a:hover{
     object-fit: cover;
     display: block;
 }
-
-/* .hover-galeria img{
-    transition: 5s;
-    cursor: pointer
-} */
-
 .cards{
     display: flex;
     justify-content: space-evenly;
@@ -164,7 +158,6 @@ nav a:hover{
     justify-content: space-between;
     border-radius: 5px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-    margin-right: 5px;
 }
 
 .cards .card img{
@@ -176,14 +169,14 @@ nav a:hover{
     display: block;
 }
 
-.cards .card .conteudo-textos-card{
-    width: 30%;
-    color: #fff;
+.card .conteudo-textos-card{
+    width: 80%;
+    color: #000;
+    text-align: center;
 }
 
-.cards .card .conteudo-textos-card p{
+.card .conteudo-textos-card p{
     font-weight: 400;
-    padding-top: 5px;
 }
 
 .servicos-sobre{
